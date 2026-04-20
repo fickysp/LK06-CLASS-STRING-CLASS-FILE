@@ -58,5 +58,6 @@ Direktori yang secara otomatis di-*generate* oleh sistem saat pertama kali dijal
 
 ## ⚠️ Catatan Teknis
 
+* **Folder & File Data**: Sistem akan otomatis membuat Folder dan File.txt ketika program dijalankan (jika belum ada pada environment).
 * **Delimiter**: Sistem menggunakan karakter *pipe* (`|`) sebagai pemisah kolom. Hindari penggunaan karakter `|` saat menginputkan data teks (seperti pada Judul Buku atau Alamat) agar proses pembacaan file (*parsing*) tidak mengalami *error*.
 * **Format Tanggal**: Sistem menggunakan standar format kalender ISO-8601 (`YYYY-MM-DD`). Pastikan input tanggal selalu mengikuti format ini (contoh: 2026-04-20).
